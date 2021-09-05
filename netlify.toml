@@ -1,5 +1,3 @@
 [build]
-  command = "gatsby build"
-  publish = "public"
-[dev]
-  command = "gatsby develop"
+  publish = "out"
+  command = "npm run build-prod"
